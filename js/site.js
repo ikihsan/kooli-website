@@ -93,7 +93,7 @@
      and gets a friendly note instead of a dead click. */
   const STORE_LINKS = {
     android: "/downloads/app.apk",
-    apk: "/downloads/app.apk",
+    apk: "https://api.bestapp.live/api/v1/apk/download",
   };
   $$("[data-store]").forEach((a) => {
     const url = STORE_LINKS[a.dataset.store];
