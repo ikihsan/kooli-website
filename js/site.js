@@ -92,7 +92,7 @@
      A link pointing at "#top" is treated as "not yet published"
      and gets a friendly note instead of a dead click. */
   const STORE_LINKS = {
-    android: "/downloads/app.apk",
+    android: "https://api.bestapp.live/api/v1/apk/download",
     apk: "https://api.bestapp.live/api/v1/apk/download",
   };
   $$("[data-store]").forEach((a) => {
